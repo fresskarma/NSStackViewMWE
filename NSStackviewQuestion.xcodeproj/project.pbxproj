@@ -10,6 +10,8 @@
 		A08AE4EB1D986B8400A5FFB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08AE4EA1D986B8400A5FFB5 /* AppDelegate.swift */; };
 		A08AE4ED1D986B8400A5FFB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A08AE4EC1D986B8400A5FFB5 /* Assets.xcassets */; };
 		A08AE4F01D986B8400A5FFB5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A08AE4EE1D986B8400A5FFB5 /* MainMenu.xib */; };
+		A08AE4F81D986BD600A5FFB5 /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08AE4F71D986BD600A5FFB5 /* CustomViewController.swift */; };
+		A08AE4FA1D986C0E00A5FFB5 /* CustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A08AE4F91D986C0E00A5FFB5 /* CustomView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +20,8 @@
 		A08AE4EC1D986B8400A5FFB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A08AE4EF1D986B8400A5FFB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		A08AE4F11D986B8400A5FFB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A08AE4F71D986BD600A5FFB5 /* CustomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
+		A08AE4F91D986C0E00A5FFB5 /* CustomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +55,11 @@
 			isa = PBXGroup;
 			children = (
 				A08AE4EA1D986B8400A5FFB5 /* AppDelegate.swift */,
+				A08AE4F71D986BD600A5FFB5 /* CustomViewController.swift */,
 				A08AE4EC1D986B8400A5FFB5 /* Assets.xcassets */,
 				A08AE4EE1D986B8400A5FFB5 /* MainMenu.xib */,
 				A08AE4F11D986B8400A5FFB5 /* Info.plist */,
+				A08AE4F91D986C0E00A5FFB5 /* CustomView.xib */,
 			);
 			path = NSStackviewQuestion;
 			sourceTree = "<group>";
@@ -119,6 +125,7 @@
 			files = (
 				A08AE4ED1D986B8400A5FFB5 /* Assets.xcassets in Resources */,
 				A08AE4F01D986B8400A5FFB5 /* MainMenu.xib in Resources */,
+				A08AE4FA1D986C0E00A5FFB5 /* CustomView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A08AE4EB1D986B8400A5FFB5 /* AppDelegate.swift in Sources */,
+				A08AE4F81D986BD600A5FFB5 /* CustomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
